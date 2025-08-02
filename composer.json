@@ -1,0 +1,28 @@
+{
+  "name": "ahsanrazib/laravel-mailchimp",
+  "description": "A Laravel wrapper for the Mailchimp API with support for lists, tags, unsubscribe, and campaign reports.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MailchimpSubscribe\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^10.0|^11.0|^12.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MailchimpSubscribe\\MailchimpServiceProvider"
+      ],
+      "aliases": {
+        "MailchimpSubscribe": "MailchimpSubscribe\\Facades\\MailchimpSubscribe"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
