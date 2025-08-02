@@ -93,4 +93,4 @@ You can customize your API key, server prefix, and list ID here.
 
 ## 🤝 License
 
-MIT © [Your Name]
+MIT © [Ahsan Razib]
